@@ -4,8 +4,7 @@
 }
 
 /* serve para aplicar configurações iguais em elemnetos distintos */
-table,
-td {
+table, td {
     border: 1px solid black;
     border-spacing: 0;
 }
@@ -25,4 +24,12 @@ td {
     color: #fff;
     font-weight: bold;
     font-size: 25px;
+}
+
+table img{
+    width: 100%;
+}
+
+.tbody{
+    width: 300px;
 }
