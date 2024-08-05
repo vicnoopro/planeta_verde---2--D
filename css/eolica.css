@@ -1,0 +1,9 @@
+.eolica {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* serve para aplicar configurações iguais em elemnetos distintos */
+table, tr {
+    border: 1px solid black;
+}
