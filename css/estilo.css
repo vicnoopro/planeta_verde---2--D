@@ -235,7 +235,7 @@ p {
 
 }
 
-.renovavel figure{
+.renovavel figure {
     float: left;
     margin: 25px;
 }
@@ -244,20 +244,20 @@ p {
 .renovavel figure img {
     opacity: 50%;
     /* width: 100%; */
-    transition: opacity 0.5s 
-    /* , width 1s ; */
+    transition: opacity 0.5s
+        /* , width 1s ; */
 
-    /* serve para dar um atraso de 0.5 segundos à todas as propriedades */
-    /* transition: all 0.5s */
+        /* serve para dar um atraso de 0.5 segundos à todas as propriedades */
+        /* transition: all 0.5s */
 }
 
 /* hover serve para que assim que passar o mouse, a imagem fica com a opacidade volte a ser 100 */
-.renovavel figure:hover img{
+.renovavel figure:hover img {
     opacity: 1;
     /* width: 110%; */
 }
 
-.renovavel figcaption{
+.renovavel figcaption {
     text-align: center;
     text-transform: uppercase;
 }

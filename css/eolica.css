@@ -4,16 +4,25 @@
 }
 
 /* serve para aplicar configurações iguais em elemnetos distintos */
-table, tr {
+table,
+td {
     border: 1px solid black;
     border-spacing: 0;
 }
 
-table{
+table {
     width: 1200px;
     margin: 0, auto;
 }
 
-td{
+td {
     padding: 10px;
+}
+
+.thead {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
 }
