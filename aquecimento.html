@@ -9,7 +9,6 @@
 
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/aqucimento.css">
     <link rel="stylesheet" href="css/estilo.css">
 
     <style>
@@ -20,17 +19,44 @@
 <body>
     <div id="interface">
 
+        <!-- start header -->
+        <!-- <nav> 
+            <ul type="circle">
+                <li>item</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+        
+             Começa a contagem a partir da 7° posição 
+             <ol type="I" start="7">
+                <li>item</li>
+                <li>item2</li>
+                <li>item3</li>
+            
+        </nav> -->
+
+        <!-- nav>ul>li*x  cria a estrutura automaticamente
+         <nav> 
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav> -->
+
+        <!-- nav>ul>li*x>a[href=#] cria a estrutura de lista de links automaticamente -->
         <nav class="menu">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="aquecimento.html">aquecimento global</a></li>
-                <li><a href="eolica.html">energia eólica</a></li>
+                <li><a href="eolica.html">energia eólica</a> </li>
                 <li><a href="contato.html">contato</a></li>
                 <li><a href="login.html">login</a></li>
             </ul>
         </nav>
 
-        <!-- start header -->
         <header>
             <div class="logo">
                 <h1 class="titulo1"><img src="imagens/logo.png" alt=""> Planeta Verde</h1>
@@ -42,14 +68,15 @@
             </div>
         </header>
 
-        <!-- start banner -->
+        <!-- Start banner -->
         <section class="banner">
-            <p>Nosso planeta, nossa casa!</p>
+            <p>
+                Nosso planeta, nossa casa!
+            </p>
         </section>
 
-        <main>
-
             <!-- start aquecimento -->
+        <main>
             <section class="aquecimento">
                 <h2 class="titulo2">Aquecimento global</h2>
 
@@ -71,7 +98,7 @@
                     próxima à superfície é de 14ºC. Se hoje estamos vivos é devido ao efeito estufa, que mantém o
                     planeta habitável</p>
 
-                <Video src="midia/aquecimento-global.mp4" controls poster="midia/aquecimento-golbal.jpg"></VIdeo>
+                <video src="midia/aquecimento-global.mp4" controls poster="midia/aquecimento-golbal.jpg"></video>
 
                 <p>O mundo está se tornando mais quente. Mas esse é um processo natural da Terra ou decorre da ação
                     humana? Há muita
@@ -87,18 +114,25 @@
                     que interagem
                     com a radiação solar produzindo radiação infravermelha são chamados de Gases de Efeito Estufa.</p>
 
+                     
+                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XSHXOEoB8jk?si=L_J9PJM6tlriJUSN"  -->
+                     <!-- title="YouTube video player" frameborder="0"  -->
+                     <!-- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  -->
+                    <!-- referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  -->
 
+                    <!-- audio para selecionar a mídia e controls para liberar os botões -->
+                    <audio src="midia/aquecimento-global.mp3" controls></audio> 
 
-                <div>
+                <div class="estufa">
                     <h3>Gases do efeito estufa</h3>
 
                     <p>Os gases de efeito estufa (GEE) são gases que absorvem uma parte dos raios do sol e os
                         redistribuem em forma
                         de radiação na atmosfera, aquecendo o planeta em um fenômeno chamado efeito estufa.</p>
 
-                    <p>Os principais GEE que temos são: gás carbônico (CO2), metano (CH4),óxido nitroso (N2O), ozônio
+                    <p>Os principais GEE que temos são: gás carbônico (CO<sub>2</sub>), metano (CH<sub>4</sub>),óxido nitroso (N<sub>2</sub>0), ozônio
                         estratosférico
-                        (O3), halocarbonos (clorofluorcarbonos, os hidroclorofluorcarbonos e os hidrofluorcarbonos) e
+                        (O<sub>3</sub>), halocarbonos (clorofluorcarbonos, os hidroclorofluorcarbonos e os hidrofluorcarbonos) e
                         vapor d’água.
                     </p>
 

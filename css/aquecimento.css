@@ -1,4 +1,4 @@
-.aquecimento {
+.aquecimeento {
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -7,4 +7,20 @@
 .aquece-img{
     text-align: center;
     padding-bottom: 25px;
+}
+
+video{
+
+    float: left;
+    width: 600px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+}
+.estufa{
+    clear: both;
+}
+
+.estufa h3{
+    padding-bottom: 15px;
 }
