@@ -1,295 +1,240 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
-div#interface {
+div#interface{
     width: 1300px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
 /* start header */
-header {
+header{
     background-color: #253526;
     padding: 10px;
     height: 60px;
 }
 
-.logo {
-    float: left;
-}
+.logo{float: left;}
 
-.social {
+.social{
     float: right;
     padding-top: 17px;
 }
 
-.titulo1 {
+.titulo1{
     color: #fff;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-style: italic;
 }
 
-.logo img {
-    vertical-align: middle;
-}
+.logo img{vertical-align: middle;}
 
-.social img {
+.social img{
     width: 24px;
 }
 
-h1 {
-    color: green;
-}
+h1{color: green;}
 
-/*start menu*/
-
-/* muda a cor de fundo dos menus */
-.menu {
+/* start menu */
+.menu{
     background-color: rgb(39, 39, 39);
-}
-
-/* 1°- tira os marcadores
-   2°- alinha o texto no centro
-   3° e 4°- reduz as bordas do menu*/
-.menu ul {
-    list-style-type: none;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-/* 1°- Muda a cor do texto 
-   2°- tira as decorações do texto, como o sublinhado
-   3°- dá espaço entre as palavras para o menu não ficar mexendo*/
-.menu a {
-    color: white;
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li{display: inline;}
+
+.menu a{
+    color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-
 }
 
-/* 1°-coloca o texto e os marcadores (invisiveis) em linha reta */
-.menu li {
-    display: inline;
-}
-
-/* o que vai acontecer na página se o mouse passar em cima do texto */
-.menu a:hover {
-
+.menu a:hover{
     background-color: #ffc107;
-    color: rgb(39, 39, 39);
+    color: #000;
 }
 
-/* aumenta o tamanho dos paragráfos */
-p {
-    margin-bottom: 16px;
-}
+p{margin-bottom: 16px;}
 
-
-/* 1° no css precisa colocar ../ para acessar a url da imagem
-   |3° serve para fazer a imagem não se repetir, caso ela seja pequena|
-   4° ajusta a posição da imagem
-   5°controla o tamanho da  imagem de fundo, mais usados : cover, contain, 100% */
-
-.banner {
-
+/* start banner */
+.banner{
     background-image: url(../imagens/banner.jpg);
-    height: 500px;
     /* background-repeat: no-repeat; */
-    background-position: center;
     background-size: cover;
-
+    background-position: center;
+    height: 500px;
 }
 
-/* 5° serve para deixar o texto em negrito 
-6° coloca uma sombra no texto*/
-.banner p {
-
+.banner p{
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 75px;
     padding-top: 200px;
     font-weight: bold;
-    text-shadow: 6px 6px 6px #081d07;
-
-
+    text-shadow: 3px 3px 2px #000;
 }
 
 /* start missao */
-.missao {
+.missao{
     padding: 75px 50px;
     text-align: center;
-
 }
 
-.titulo2 {
+.titulo2{
     font-size: 35px;
     padding-bottom: 25px;
+    text-align: center;
 }
 
-.missao p {
+.missao p{
     font-size: 20px;
+    line-height: 25px;
 }
 
-/* span serve para mudar uma palavra específica dentro de um texto já formatado */
-.missao span {
+.missao span{
     font-weight: bold;
     color: #030;
-    line-height: 5px;
 }
 
-/* fazendo uma seção com bordas, que fica entre a margem e a margem interna */
-.alerta {
-
-    /* border-color: rgb(99, 56, 27); 
-    border-width: 10px;
-    border-style:solid;*/
-
-    /* border: #990, 10px, solid; */
-
-    border-top: 15px solid rgb(35, 30, 24);
-    border-bottom: 15px solid rgb(35, 30, 24);
-    background-color: rgb(61, 50, 33);
-    color: white;
+.alerta{
+    /* border-color: #900;
+    border-width: 50px;
+    border-style: inset; */
+    /* border: 10px solid #099; */
+    border-top: 15px solid rgb(35,30,24);
+    border-bottom: 15px solid rgb(35,30,24);
+    background-color: rgb(63,50,33);
+    color: #fff;
     height: 350px;
-
 }
 
-.alerta figure {
-
+.alerta figure{
     float: left;
-    /* width: 285px; */
     width: 25%;
     text-align: center;
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 20px;
     box-sizing: border-box;
+    padding-top: 20px;
     position: relative;
     height: 330px;
-
 }
 
-.alerta figcaption {
-
+.alerta figcaption{
     padding-top: 10px;
 }
 
-.alerta h3 {
-
+.alerta h3{
     padding-bottom: 15px;
 }
 
-.alerta a {
-
-    color: black;
-    /* tirando o sublinhado */
+.alerta a{
+    color: #000;
     text-decoration: none;
-    background-color: #ffc107;
+    background-color: rgb(255, 193, 7);
     padding: 5px 10px;
-    /* deixando em negrito */
     font-weight: bold;
-    border-radius: 10px;
-    /* sempre colocar um position absolute dentro de uma tag que possua um position relative (tag figure nesse caso) */
+    border-radius: 15px;
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    bottom: 0px;
-    right: 33%;
+    /* top: 0;
+    left: 0; */
+    bottom: 0;
+    right: 35%;
 }
 
-/* start renovável */
+/* .posicao{
+    position: relative;
+    left: 200px;
+    top: 200px;
+} */
+/* img{border-radius: 50%;} */
 
-.renovavel {
+/* start renovavel */
+.renovavel{
     padding-top: 25px;
     float: left;
     width: 875px;
     padding-right: 25px;
-    border-right: 2px solid rgb(35, 30, 24);
+    border-right: 2px solid rgb(35,30,24);
 }
 
-.renovavel h2 {
-    padding-bottom: 25px;
-}
-
-.renovavel-img {
+.renovavel-img{
     width: 25%;
     float: left;
     padding-right: 10px;
-
 }
 
-.renovavel p {
+.renovavel p{
     text-align: justify;
-
 }
 
-.renovavel figure {
+.renovavel figure{
     float: left;
     margin: 25px;
 }
 
-/* transition: configura para que a imagem tenha um atraso de 0.5 segundos para ficar totalmente opaca */
-.renovavel figure img {
-    opacity: 50%;
-    /* width: 100%; */
-    transition: opacity 0.5s
-        /* , width 1s ; */
-
-        /* serve para dar um atraso de 0.5 segundos à todas as propriedades */
-        /* transition: all 0.5s */
+.renovavel figure img{
+    opacity: 0.5;
+    /* width: 80%;
+    border-radius: 50%; */
+    transition: all 0.5s;
 }
 
-/* hover serve para que assim que passar o mouse, a imagem fica com a opacidade volte a ser 100 */
-.renovavel figure:hover img {
+.renovavel figure:hover img{
     opacity: 1;
-    /* width: 110%; */
+    /* width: 100%;
+    border-radius: 0; */
 }
 
-.renovavel figcaption {
+.renovavel h3{
     text-align: center;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
-
 /* start lateral */
-.lateral {
+.lateral{
     float: right;
     width: 380px;
     padding-top: 25px;
 }
 
-.lateral img {
+.lateral img{
     width: 40%;
     float: left;
     padding-right: 10px;
 }
-
 /* start rodape */
-.rodape {
-    background-color: rgb(35, 30, 24);
+.rodape{
+    background-color: rgb(35,30,24);
     clear: both;
     color: #fff;
     padding: 20px;
     height: 50px;
 }
 
-.rodape img {
+.rodape img{
     float: left;
 }
 
-.rodape p {
+.rodape p{
     float: right;
     padding-top: 15px;
     padding-right: 15px;

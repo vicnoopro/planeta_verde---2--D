@@ -1,24 +1,21 @@
-.eolica {
+.eolica{
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-/* serve para aplicar configurações iguais em elemnetos distintos */
-table, td {
-    border: 1px solid black;
+table, td{
+    border: 1px solid #000;
     border-spacing: 0;
 }
 
-table {
+table{
     width: 1200px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
-td {
-    padding: 10px;
-}
+td{padding: 10px;}
 
-.thead {
+.thead{
     text-align: center;
     background-color: #333;
     color: #fff;
@@ -26,10 +23,6 @@ td {
     font-size: 25px;
 }
 
-table img{
-    width: 100%;
-}
+table img{width: 100%;}
 
-.tbody{
-    width: 300px;
-}
+.tbody{width: 300px;}

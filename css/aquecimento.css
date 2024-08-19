@@ -1,7 +1,6 @@
-.aquecimeento {
+.aquecimento{
     padding-top: 25px;
     padding-bottom: 25px;
-
 }
 
 .aquece-img{
@@ -10,13 +9,12 @@
 }
 
 video{
-
     float: left;
     width: 600px;
     padding-right: 25px;
     padding-bottom: 25px;
-
 }
+
 .estufa{
     clear: both;
 }
