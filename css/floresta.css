@@ -1,0 +1,23 @@
+.swap {
+    position: relative;
+    float: left;
+}
+
+.swap-img-front, .swap-img-back{
+    position: absolute;
+}
+.swap-img-back{
+    opacity: 0;
+}
+
+.swap:hover .swap-img-back{
+    opacity: 100;
+
+}
+
+iframe{
+    float: right;
+    width: 600px;
+    height: 800px;
+    margin-bottom: 25px;
+}

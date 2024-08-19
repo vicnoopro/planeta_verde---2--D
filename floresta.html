@@ -1,11 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
-            <h2>Floresta Amazônica</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planeta Verde</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/floresta.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="interface">
+
+        <!-- <ul type="disc">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+            <ol type="a">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+            texto
+            <ol type="a" start="7">
+                <li>item7</li>
+                <li>item8</li>
+                <li>item9</li>
+            </ol> -->
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="aquecimento.html">aquecimento global</a></li>
+                <li><a href="eolica.html">energia eólica</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </nav>
+
+        <!-- start header -->
+        <header>
+            <div class="logo">
+                <h1 class="titulo1"><img src="imagens/logo.png" alt=""> Planeta Verde</h1>
+            </div>
+
+            <div class="social">
+                <img src="imagens/facebook-logo.png" alt="">
+                <img src="imagens/instagram-logo.png" alt="">
+            </div>
+        </header>
+
+        <!-- start banner -->
+        <section class="banner">
+            <p>Nosso planeta, nossa casa!</p>
+        </section>
+
+        <main>
+            
+            
+            <h2 class="titulo2">Floresta Amazônica</h2>
 
             <p>"Floresta Amazônica é a maior floresta equatorial do mundo. Ela se estende por nove territórios da América do Sul, com aproximadamente 62% de sua área situados no Brasil. A Floresta Amazônia é detentora de uma enorme biodiversidade, composta por milhões de espécies de animais e plantas, muitas das quais ainda não foram catalogadas. Importante para a população que nela vive e dela depende e também para o clima terrestre, a Floresta Amazônica sofre com graves problemas ambientais, como as queimadas e o desmatamento."</p>
 
             <p>Passe o mouse sobre a imagem abaixo, e clique nas áreas vermelhas para saber mais.</p>
 
-                <img src="imagens/amazonia01.jpg">
-                <img src="imagens/amazonia02.jpg">
+            <div class="swap">
+                <img src="imagens/amazonia01.jpg" class="swap-img-front">
+                <img src="imagens/amazonia02.jpg" class="swap-img-back" usemap="#floresta">
+
+                <map name="floresta">
+                    <area shape="rect" coords="151,122,211,185" href="" alt="">
+                    <area shape="circle" coords="315,270,243,270" href="" alt="">
+                    <area shape="poly" coords="369,122,333,184,404,184" href="" alt="">
+                </map>
+            </div>
+
+            <iframe src="amazonia.html" frameborder="0" scrolling="no"></iframe>
                 
+            </main>
+
+            <footer class="rodape">
+                <img src="imagens/planeta-verde.png">
+                <p>&copy; 2024</p>
+            </footer>
+        </div>
+    </body>
+    
+    </html>
             

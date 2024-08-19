@@ -221,6 +221,13 @@ p{margin-bottom: 16px;}
     float: left;
     padding-right: 10px;
 }
+
+.lateral a{
+    text-decoration: none;
+    color: black;
+
+}
+
 /* start rodape */
 .rodape{
     background-color: rgb(35,30,24);
@@ -239,3 +246,4 @@ p{margin-bottom: 16px;}
     padding-top: 15px;
     padding-right: 15px;
 }
+
