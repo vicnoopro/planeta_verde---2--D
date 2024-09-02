@@ -1,0 +1,47 @@
+.fauna{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.slide {
+    width: 1000px;
+    margin: auto;
+}
+
+.galeria{
+    list-style-type: none;
+}
+
+.galeria li{
+
+    float: left;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 15px;
+
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.foto1{background-image: url(/imagens/fauna-01.jpg);}
+.foto2{background-image: url(/imagens/fauna-02.jpg);}
+.foto3{background-image: url(/imagens/fauna-03.jpg);}
+.foto4{background-image: url(/imagens/fauna-04.jpg);}
+.foto5{background-image: url(/imagens/fauna-05.jpg);}
+.foto6{background-image: url(/imagens/fauna-06.jpg);}
+
+.galeria p{
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+}
+
+.galeria li:hover p{
+    opacity: 100;
+    transition: opacity 0.5s;
+}
