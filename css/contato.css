@@ -1,7 +1,51 @@
-.contato {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-image: url(../imagens/bg-form.png);
+.contato{
+    margin: 25px 0px 25px 0px;
+    background-image: url(..//imagens/bg-form.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+
+form{
+    width: 650px;
+
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+textarea{
+    resize: none;
+}
+
+.limpar{
+    font-weight: bold;
+    background-color: white;
+    border: #900 2px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+    
+}
+
+.limpar:hover{
+    background-color: #900;
+    color: white;
+}
+
+.enviar{
+    font-weight: bold;
+    background-color: white;
+    border: #060 2px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.enviar:hover{
+    background-color: #060;
+    color: white;
+}
+

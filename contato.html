@@ -4,21 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Planeta Verde</title>
-
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/contato.css">
-
     <style>
-
     </style>
 </head>
 
 <body>
     <div id="interface">
+
 
         <nav class="menu">
             <ul>
@@ -48,14 +44,30 @@
         </section>
 
         <main>
-
             <section class="contato">
-                <h2 class="titulo2">Contato</h2>
+               
+                <form action="" method="get">
+
+                    <h2 class="titulo2">Contato</h2> 
+
+                    <label for="">Nome</label>
+                    <input type="text" name="tNome" placeholder="Digite seu nome completo" size="25">
+
+                    <label for="">Email</label>
+                    <input type="email" name="tEmail" placeholder="Por ex.: joaodasilva@gmail.com">
+                    
+                    <label for="">Assunto</label>
+                    <input type="text" name="tAssunto" placeholder="Digite o título de sua mensagem">
+
+                    <label for="">Mensagem</label>
+                    <textarea name="tMsg" placeholder="Digite aqui sua mensagem" rows="10"></textarea>
+
+                    <input class="limpar" type="reset" value="Limpar">
+                    <input class="enviar" type="submit" value="Enviar" >
+
+                </form>
             </section>
-
-            <form action="" method="get"></form>
         </main>
-
         <footer class="rodape">
             <img src="imagens/planeta-verde.png">
             <p>&copy; 2024</p>
