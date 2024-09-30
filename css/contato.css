@@ -1,15 +1,18 @@
-.contato{
+.contato {
     margin: 25px 0px 25px 0px;
     background-image: url(..//imagens/bg-form.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-form{
+form {
     width: 650px;
 
 }
-input[type="text"], input[type="email"], textarea{
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     font-size: 18px;
@@ -17,45 +20,48 @@ input[type="text"], input[type="email"], textarea{
     border-radius: 10px;
     margin-bottom: 15px;
 }
-textarea{
+
+textarea {
     resize: none;
 }
 
-.limpar{
+.limpar {
+    font-size: 18px;
     font-weight: bold;
     background-color: white;
     border: #900 2px solid;
     border-radius: 5px;
     padding: 10px 15px;
-    
-    
+
+
 }
 
-.limpar:hover{
+.limpar:hover {
     background-color: #900;
     color: white;
 }
 
-.enviar{
-   font-weight: bold;
+.enviar {
+    font-size: 18px;
+    font-weight: bold;
     background-color: white;
     border: #060 2px solid;
     border-radius: 5px;
     padding: 10px 15px;
 }
 
-.enviar:hover{
+.enviar:hover {
     background-color: #060;
     color: white;
 }
 
-.botoes{
+.botoes {
     text-align: center;
     margin-top: 25px;
-    
+
 }
 
-::placeholder{
+::placeholder {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }

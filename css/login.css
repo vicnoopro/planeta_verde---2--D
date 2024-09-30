@@ -1,0 +1,41 @@
+.login{
+    margin: 25px 0px 25px 0px;
+    background-image: url(..//imagens/bg-form.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form{
+    width: 650px;
+}
+
+input[type="password"], input[type="email"]{
+width: 100%;
+padding: 10px;
+font-size: 18px;
+border: 1px solid #000;
+border-radius: 10px;
+margin-bottom: 15px;;
+}
+
+
+.entrar{
+  font-weight: bold;
+    background-color: white;
+    border: #060 2px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.entrar:hover{
+    background-color: #060;
+    color: white;
+}
+
+span{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    
+}
