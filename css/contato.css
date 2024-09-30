@@ -37,7 +37,7 @@ textarea{
 }
 
 .enviar{
-    font-weight: bold;
+   font-weight: bold;
     background-color: white;
     border: #060 2px solid;
     border-radius: 5px;
@@ -49,3 +49,13 @@ textarea{
     color: white;
 }
 
+.botoes{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
