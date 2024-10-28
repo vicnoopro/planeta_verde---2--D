@@ -14,16 +14,19 @@ form{
 .titulo3{
     padding-bottom: 25px;
     font-size: 25px;
+  
 }
 
 input[type="password"],
 input[type="email"],
 input[type="text"],
-input[type="file"]{
+input[type="file"],
+input[type="number"],
+select{
     width: 97%;
     padding: 10px;
     font-size: 18px;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -59,4 +62,15 @@ input[type="file"]{
 input[type="radio"]{
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.aviso,
+.asterix{
+    font-size: 14px;
+    color: #900;
+    font-weight: bold;
+} 
+
+.asterix{
+    font-size: 20px;
 }
