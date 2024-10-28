@@ -1,0 +1,62 @@
+.cadastro{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(../imagens/bg-form.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form{
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.titulo3{
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="file"]{
+    width: 97%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.entrar{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.entrar{border: 2px solid #060;}
+
+.entrar:hover{
+    background-color: #060;
+    color: #fff;
+}
+
+.form-label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    float: right;
+    width: 80% !important;
+}
+
+input[type="radio"]{
+    margin-top: 10px;
+    margin-left: 10px;
+}

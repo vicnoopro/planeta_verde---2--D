@@ -1,18 +1,19 @@
-.swap {
+.swap{
     position: relative;
     float: left;
 }
 
-.swap-img-front, .swap-img-back{
+.swap-img-front,
+.swap-img-back{
     position: absolute;
 }
+
 .swap-img-back{
     opacity: 0;
 }
 
 .swap:hover .swap-img-back{
-    opacity: 100;
-
+    opacity: 1;
 }
 
 iframe{
@@ -20,9 +21,4 @@ iframe{
     width: 600px;
     height: 800px;
     margin-bottom: 25px;
-}
-
-.titulo2 {
-
-    padding-top: 30px;
 }
