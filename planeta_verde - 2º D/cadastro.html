@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planeta Verde</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="interface">
+
+        <!-- <ul type="disc">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+            <ol type="a">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+            texto
+            <ol type="a" start="7">
+                <li>item7</li>
+                <li>item8</li>
+                <li>item9</li>
+            </ol> -->
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="aquecimento.html">aquecimento global</a></li>
+                <li><a href="eolica.html">energia eólica</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </nav>
+
+        <!-- start header -->
+        <header>
+            <div class="logo">
+                <h1 class="titulo1"><img src="imagens/logo.png" alt=""> Planeta Verde</h1>
+            </div>
+
+            <div class="social">
+                <img src="imagens/facebook-logo.png" alt="">
+                <img src="imagens/instagram-logo.png" alt="">
+            </div>
+        </header>
+
+        <!-- start banner -->
+        <section class="banner">
+            <p>Nosso planeta, nossa casa!</p>
+        </section>
+
+        <main>
+            <section class="cadastro">
+
+                <form action="" method="post">
+                    <h2 class="titulo2">Cadastro</h2>
+
+                    <fieldset>    
+                        <h3 class="titulo3">Identificação</h3>
+
+                        <p class="aviso"><span class="asterix">*</span> campos de preenchimento obrigatório</p>
+
+                        <label for="" class="form-label"><span class="asterix">*</span> Email:</label>
+                        <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com" class="form-input" required>
+
+                        <label for="" class="form-label"><span class="asterix">*</span> Senha:</label>
+                        <input type="password" name="tPswd" placeholder="digite sua senha" class="form-input" required>
+
+                        <label for="" class="form-label"><span class="asterix">*</span> Nome:</label>
+                        <input type="text" name="tNome" placeholder="digite seu nome completo" class="form-input" required>
+
+                        <label for="" class="form-label"><span class="asterix">*</span> CPF:</label>
+                        <input type="text" name="tCpf" placeholder="digite seu CPF no formato 000.000.000-00" class="form-input" required>
+
+                        <label for="" class="form-label">Sexo:</label>
+                        <input type="radio" name="tSex" value="feminino" id="fem" checked> <label for="fem">feminino</label>
+                        <input type="radio" name="tSex" value="masculino" id="masc"> <label for="masc">masculino</label>
+                        <input type="radio" name="tSex" value="outro" id="out"> <label for="out">Outros</label>
+
+                        <label for="" class="form-label" style="clear:both;">Foto:</label>
+                        <input type="file" name="tFoto" class="form-input" style="border: none;">
+                    </fieldset>
+
+                    <fieldset>
+                        <h3 class="titulo3">Endereço</h3>
+
+                        <label for="">Endereço:</label>
+                        <input type="text" name="tEndereco" placeholder="rua, praça, avenida, etc.">
+
+                        <div class="numero">
+                            <label for="">Número:</label>
+                            <!-- <input type="number" name="tNumero" min="1" max="10"> -->
+                            <input type="text" name="tNumero" placeholder="nº">
+                        </div>
+
+                        <div class="comp">
+                            <label for="">Complemento:</label>
+                            <input type="text" name="tComplemento" placeholder="casa, apto, bloco, etc.">
+                        </div>
+
+                        <label for="">Bairro:</label>
+                        <input type="text" name="tBairro" placeholder="bairro, vila, jardim, conndomínio, etc.">
+
+                        <div class="cep">
+                            <label for="">CEP:</label>
+                            <input type="text" name="tCep" placeholder="00.000-000">
+                        </div>
+
+                        <div class="cidade">
+                            <label for="">Cidade:</label>
+                            <input type="text" name="tCidade" placeholder="cidade">
+                        </div>
+
+                        <div class="estado">
+                            <label for="">Estado:</label>
+                            <select name="tEstado">
+                                <option value="">Selecione um estado</option>
+                                <option value=""disabled>-------------------</option>
+                                <optgroup label="Região Sudeste">
+                                    <option value="ES">Espírito Santo</option>
+                                    <!-- <option value="MG" selected>Minas Gerais</option> -->
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <!-- <option value="SP" disabled>São Paulo</option> -->
+                                    <option value="SP">São Paulo</option>
+                                </optgroup>
+                                <optgroup label="Região Sul">
+                                    <option value="PR">Paraná</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="SC">Santa Catarina</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h3 class="titulo3">Contato</h3>
+
+                        <div class="telefone">
+                            <label for="">Telefone residencial</label>
+                            <input type="text" placeholder="(00) 00000-0000" name="tTel1">
+                        </div>
+                        <div class="telefone">
+                            <label for="">Telefone comercial</label>
+                            <input type="text" placeholder="(00) 00000-0000" name="tTel2">
+                        </div>
+                        <div class="telefone">
+                            <br>
+                            <label for="">Celular</label>
+                            <input type="text" placeholder="(00) 00000-0000" name="tCel1">
+                            <input type="checkbox" name="tWhats" id="whats"> <label for="whats">Whatsapp</label>
+                        </div>
+                        <div class="telefone">
+                            <br>
+                            <label for="">Celular</label>
+                            <input type="text" placeholder="(00) 00000-0000" name="tCel2">
+                        </div>
+
+                        <div style="clear: both;"></div>
+
+                        <label for="">Facebook</label>
+                        <input type="text" name="tFace" placeholder="facebook">
+
+                        <label for="">Istagram</label>
+                        <input type="text" name="tInsta" placeholder="instagram">
+
+                        <label for="">Linkedin</label>
+                        <input type="text" name="tLink" placeholder="linkedin">
+                    </fieldset>
+
+                    <fieldset>
+                        <h3 class="titulo3">Preferências</h3>
+
+                        <div class="form-check">
+                            <input type="checkbox" id="check01"> <label for="check01">animais domésticos</label><br>
+                            <input type="checkbox" id="check02"> <label for="check02">animais selvagens</label><br>
+                            <input type="checkbox" id="check03"> <label for="check03">animais em extinção</label><br>
+                            <input type="checkbox" id="check04"> <label for="check04">animais exóticos</label><br>
+                            <input type="checkbox" id="check05"> <label for="check05">biodiversidade</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" id="check06"> <label for="check06">reciclagem</label><br>
+                            <input type="checkbox" id="check07"> <label for="check07">preservação ambiental</label><br>
+                            <input type="checkbox" id="check08"> <label for="check08">ecossistemas</label><br>
+                            <input type="checkbox" id="check09"> <label for="check09">energia renovável</label><br>
+                            <input type="checkbox" id="check10"> <label for="check10">unidades de conservação</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="botoes">
+                        <input type="reset" value="limpar" class="limpar">
+                        <input type="submit" value="enviar" class="enviar">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <img src="imagens/planeta-verde.png">
+            <p>&copy; 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>

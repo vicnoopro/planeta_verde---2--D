@@ -1,0 +1,56 @@
+.contato{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(../imagens/bg-form.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form{
+    width: 650px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+textarea{resize: none;}
+
+.limpar,
+.enviar{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.limpar{border: 2px solid #900;}
+.enviar{border: 2px solid #060;}
+
+.limpar:hover{
+    background-color: #900;
+    color: #fff;
+}
+
+.enviar:hover{
+    background-color: #060;
+    color: #fff;
+}
+
+.botoes{
+    text-align: center; 
+    margin-top: 25px;
+}
+
+::placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

@@ -1,0 +1,66 @@
+.fauna{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.slide{
+    width: 1000px;
+    margin: auto;
+}
+
+.galeria{
+    list-style: none;
+}
+
+.galeria li{
+    float: left;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 15px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;
+    background-color: #fff;
+}
+
+.foto01{background-image: url(../imagens/fauna-01.jpg);}
+.foto02{background-image: url(../imagens/fauna-02.jpg);}
+.foto03{background-image: url(../imagens/fauna-03.jpg);}
+.foto04{background-image: url(../imagens/fauna-04.jpg);}
+.foto05{background-image: url(../imagens/fauna-05.jpg);}
+.foto06{background-image: url(../imagens/fauna-06.jpg);}
+
+.galeria p{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.galeria li:hover p{opacity: 1;}
+
+.galeria li:hover{transform: scale(1.3);}
+
+.animacao{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    clear: both;
+    transition: all 5s;
+}
+
+.animacao:hover{
+    /* transform: translate(1000px,-100px); */
+    /* transform: rotate(360deg); */
+    /* transform: scale(2,1.5); */
+    /* transform: translateZ(300px); */
+    /* transform: rotateZ(180deg); */
+    /* transform: skewY(-45deg); */
+    transform: translateX(1000px) rotate(360deg) scale(2);
+    background-color: yellow;
+    border-radius: 50%;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planeta Verde</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="interface">
+
+        <!-- <ul type="disc">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+            <ol type="a">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+            texto
+            <ol type="a" start="7">
+                <li>item7</li>
+                <li>item8</li>
+                <li>item9</li>
+            </ol> -->
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="aquecimento.html">aquecimento global</a></li>
+                <li><a href="eolica.html">energia eólica</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </nav>
+
+        <!-- start header -->
+        <header>
+            <div class="logo">
+                <h1 class="titulo1"><img src="imagens/logo.png" alt=""> Planeta Verde</h1>
+            </div>
+
+            <div class="social">
+                <img src="imagens/facebook-logo.png" alt="">
+                <img src="imagens/instagram-logo.png" alt="">
+            </div>
+        </header>
+
+        <!-- start banner -->
+        <section class="banner">
+            <p>Nosso planeta, nossa casa!</p>
+        </section>
+
+        <main>
+            <section class="login">
+
+                <form action="" method="post">
+                    <h2 class="titulo2">Login</h2>
+
+                    <span>Todos os campos são de preenchimento obrigatório.</span><br><br>
+                    
+                    <label for="">Usuário:</label>
+                    <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com" required>
+
+                    <label for="">Senha:</label>
+                    <input type="password" name="tPswd" placeholder="digite sua senha" required>
+
+                    <!-- <input type="submit" value="entrar" class="entrar"> -->
+                     <button class="entrar" type="submit">entrar</button>
+                    <input type="checkbox" name="tConnect" id="connect"> <label for="connect">Mantenha-me conectado!</label>
+                </form>
+
+                <p><a href="#" class="form-link" onclick="document.getElementById('modal-recuperar').style.display='block'">Esqueceu sua senha? Clique aqui para recuperá-la.</a></p>
+                <p><a href="cadastro.html" class="form-link">Não possui login? Clique aqui e faça seu cadastro.</a></p>
+
+                <div class="modal-recuperar" id="modal-recuperar">
+                    <form action="" method="post">
+                        <h3>recuperar senha <span class="modal-close" onclick="document.getElementById('modal-recuperar').style.display='none'">&times;</span></h3>
+                        
+                        <p>Identifique-se para receber um email com as instruções e o link para criar uma nova senha.</p>
+
+                        <label for="">Email:</label>
+                        <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com">
+
+                        <input type="submit" value="enviar" class="entrar">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <img src="imagens/planeta-verde.png">
+            <p>&copy; 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>

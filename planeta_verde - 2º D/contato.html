@@ -4,17 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Planeta Verde</title>
+
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/contato.css">
+
     <style>
+
     </style>
 </head>
 
 <body>
     <div id="interface">
 
+        <!-- <ul type="disc">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ul>
+
+            <ol type="a">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+            texto
+            <ol type="a" start="7">
+                <li>item7</li>
+                <li>item8</li>
+                <li>item9</li>
+            </ol> -->
 
         <nav class="menu">
             <ul>
@@ -45,32 +67,33 @@
 
         <main>
             <section class="contato">
-               
+
                 <form action="" method="get">
-
-                    <h2 class="titulo2">Contato</h2> 
-
-                    <label for="">Nome</label>
-                    <input type="text" name="tNome" placeholder="Digite seu nome completo" size="25">
-
-                    <label for="">Email</label>
-                    <input type="email" name="tEmail" placeholder="Por ex.: joaodasilva@gmail.com">
+                    <h2 class="titulo2">Contato</h2>
                     
-                    <label for="">Assunto</label>
-                    <input type="text" name="tAssunto" placeholder="Digite o título de sua mensagem">
+                    <label for="">Nome:</label>
+                    <input type="text" name="tNome" placeholder="digite seu nome completo">
 
-                    <label for="">Mensagem</label>
-                    <textarea name="tMsg" placeholder="Digite aqui sua mensagem" rows="10"></textarea>
+                    <label for="">Email:</label>
+                    <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com">
+
+                    <label for="">Assunto:</label>
+                    <input type="text" name="tAssunto" placeholder="digite o título de sua mensagem">
                     
+                    <label for="">Mensagem:</label>
+                    <textarea name="tMsg" placeholder="digite aqui sua mensagem" rows="10"></textarea>
+
                     <input type="checkbox" name="tCheck" id="check" checked> <label for="check">Deseja receber nossas notificações?</label>
-                    <div class="botoes"> 
-                    <input class="limpar" type="reset" value="Limpar">
-                    <input class="enviar" type="submit" value="Enviar" >
-                </div>
+
+                    <div class="botoes">
+                        <input type="reset" value="limpar" class="limpar">
+                        <input type="submit" value="enviar" class="enviar">
+                    </div>
 
                 </form>
             </section>
         </main>
+
         <footer class="rodape">
             <img src="imagens/planeta-verde.png">
             <p>&copy; 2024</p>
