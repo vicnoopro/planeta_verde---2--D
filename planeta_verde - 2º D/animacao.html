@@ -1,11 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Animação</title>
 
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .animacao-01 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+             /* position: relative;  */
+            animation-name: exemplo3;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: 3;
+        }
+
+        @keyframes exemplo {
+
+            /* from{background-color: red;} */
+            /* to{background-color: blue;} */
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: rgb(0, 225, 255);
+            }
+
+            50% {
+                background-color: rgb(217, 255, 0);
+            }
+
+            75% {
+                background-color: rgb(89, 0, 255);
+            }
+
+            1000% {
+                background-color: rgb(255, 0, 0);
+            }
+        }
+
+        @keyframes exemplo2 {
+
+            /* from{background-color: red;} */
+            /* to{background-color: blue;} */
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: rgb(0, 225, 255);
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: rgb(217, 255, 0);
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: rgb(89, 0, 255);
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: rgb(255, 0, 0);
+                left: 0;
+                top: 0;
+            }
+        }
+
+        @keyframes exemplo3 {
+
+            /* from{background-color: red;} */
+            /* to{background-color: blue;} */
+            0% {
+                background-color: red;
+                transform: translate(0);
+            }
+
+            25% {
+                background-color: rgb(0, 225, 255);
+                transform: translate(500px, 0);
+            }
+
+            50% {
+                background-color: rgb(217, 255, 0);
+                transform: translate(0, 500px);
+            }
+
+            75% {
+                background-color: rgb(89, 0, 255);
+                transform: translate(500px, 500px);
+            }
+
+            1000% {
+                background-color: rgb(255, 0, 0);
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes exemplo4 {
+            /* from{background-color: red;} */
+            /* to{background-color: blue;} */
+            0% {
+                background-color: red;
+                transform: translate(0);
+            }
+
+            25% {
+                background-color: rgb(0, 225, 255);
+                transform: translate(500px, 0);
+            }
+
+            50% {
+                background-color: rgb(217, 255, 0);
+                transform: translate(500px, 300px);
+            }
+
+            75% {
+                background-color: rgb(89, 0, 255);
+                transform: translate(0, 300px);
+            }
+
+            1000% {
+                background-color: rgb(255, 0, 0);
+                transform: translate(0, 0);
+            }
+        }
+
+        .animacao-02{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            /* animation-name: exemplo5; 
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-iteration-count: 4;
+            animation-direction: alternate-reverse;
+             animation-timing-function: ease-in-out; */
+            animation: exemplo5 6s 2s 3 normal;
+        }
+
+        @keyframes exemplo5 {
+            0%{transform: translate(0) rotateX(0);
+            background-color: black;}
+            
+            25%{background-color: orange;
+            transform: translate(500px,0) rotateX(360deg);}
+            
+            50%{background-color: gray;
+            transform: translate(0,250px) rotateX(-360deg);}
+
+            75%{background-color: darkmagenta;
+            transform: translate(500px,250px) rotateX(360deg);}
+            
+            1000%{background-color: black;
+            transform: translate(0,0) rotate(-360deg);}
+        }
+       
+
+        
+    </style>
+
+
 </head>
+
 <body>
-    
+    <h2>Animação 01</h2>
+
+    <div class="animacao-01"></div>
+
+    <h2>Animação 02</h2>
+
+    <div class="animacao-02"></div>
 </body>
+
 </html>
