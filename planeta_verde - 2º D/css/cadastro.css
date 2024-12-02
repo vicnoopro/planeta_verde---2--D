@@ -1,0 +1,121 @@
+.cadastro{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(../imagens/bg-form.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+form{
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.titulo3{
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="file"],
+input[type="number"],
+select{
+    width: 97%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.enviar,
+.limpar{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.limpar{border: 2px solid #900;}
+.enviar{border: 2px solid #060;}
+
+.enviar:hover{
+    background-color: #060;
+    color: #fff;
+}
+
+.limpar:hover{
+    background-color: #900;
+    color: #fff;
+}
+
+.botoes{
+    text-align: center; 
+    margin-top: 25px;
+}
+
+.form-label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    float: right;
+    width: 80% !important;
+}
+
+input[type="radio"]{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.aviso,
+.asterix{
+    font-size: 14px;
+    color: #900;
+    font-weight: bold;
+}
+
+.asterix{
+    font-size: 20px;
+    
+}
+
+.numero, .cep{
+    width: 20%;
+    float: left;
+}
+
+.comp, .cidade{
+    width: 75%;
+    float: right;
+}
+
+.estado{
+    width: 40%;
+}
+
+.telefone{
+    width: 21.5%;
+    float: left;
+    margin-right: 21px;
+}
+
+.form-check{
+    width: 50%;
+    float: left;
+}
+
+fieldset{
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
